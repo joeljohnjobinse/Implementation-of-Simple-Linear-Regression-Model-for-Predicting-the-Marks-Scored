@@ -18,6 +18,7 @@ To write a program to predict the marks scored by a student using the simple lin
 8. Display Y_test
 9. Plot the graph for training data
 10. Plot the graph for test data
+11. Find the mean squared error, mean absolute error and root mean squared error
 
 ## Program:
 ```
@@ -71,6 +72,15 @@ plt.title("Hours vs Scores(Test set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
+
+mse=mean_squared_error(Y_test,Y_pred)
+print("MSE = ",mse)
+
+mae=mean_absolute_error(Y_test,Y_pred)
+print("MAE = ",mae)
+
+rmse=np.sqrt(mse)
+print("RMSE = ",rmse)
 ```
 ## Output:
 ![training_data_graph](https://github.com/joeljohnjobinse/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/138955488/cf9d622c-25ee-4eda-aa8a-50a3868bf996)
