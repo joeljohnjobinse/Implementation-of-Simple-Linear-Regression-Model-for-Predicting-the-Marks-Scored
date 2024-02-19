@@ -73,7 +73,8 @@ plt.ylabel("Scores")
 plt.show()
 ```
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+![training_data_graph](https://github.com/joeljohnjobinse/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/138955488/cf9d622c-25ee-4eda-aa8a-50a3868bf996)
+![test_data_graph](https://github.com/joeljohnjobinse/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/138955488/d20ab1d2-7fda-4961-9192-34319a98bb03)
 
 
 ## Result:
